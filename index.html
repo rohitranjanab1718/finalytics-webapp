@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finalytics</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/homepage.css" />
+</head>
+
+<style>
+
+    body{
+        background: black;
+        font-family: 'Poppins', sans-serif;
+        letter-spacing: 0.6vmax;
+        color: #cefcfc;
+    }
+
+    ul{
+        color: black;
+    }
+
+    hr{
+        height: 1px;
+        background: white;
+    }
+
+    img:hover{
+        cursor: pointer;
+    }
+
+    /* Position text in the middle of the page/image */
+    .container {
+        background-color: rgba(0,0,0,0); /* Fallback color */
+        font-weight: bold;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 2;
+        width: 100%;
+        padding: 20px;
+        text-align: center;
+    }
+</style>
+
+<body id="page">
+<ul class="cb-slideshow">
+    <li><span>Image 01</span></li>
+    <li><span>Image 02</span></li>
+    <li><span>Image 03</span></li>
+    <li><span>Image 04</span></li>
+    <li><span>Image 05</span></li>
+    <li><span>Image 06</span></li>
+    <li><span>Image 07</span></li>
+    <li><span>Image 08</span></li>
+    <li><span>Image 09</span></li>
+    <li><span>Image 10</span></li>
+</ul>
+
+
+    <div class="container">
+        <div class="row" style="text-align: center">
+            <div class="col-lg-12" style="font-size: calc(2.5rem + 1.5vmin);margin: auto; text-align: center;
+">
+                Welcome to Finalytics!
+            </div>
+            <div class="col-lg-12 mt-3" style="font-size: calc(1rem + 1vmin); margin: auto; text-align: center;">
+                <hr>
+                KEEP TRACK OF EXPENSES.
+            </div>
+            <div class="col-lg-12" style="font-size: calc(1rem + 1vmin); margin: auto; text-align: center;">
+                MONITOR CREDIT.
+            </div>
+            <div class="col-lg-12" style="font-size: calc(1rem + 1vmin); margin: auto; text-align: center;">
+                MANAGE PERSONAL FINANCES ON THE GO.
+                <hr>
+            </div>
+            <div class="col-md-5 mt-4" style="margin: auto; text-align: center">
+                <img id="google-login" src="img/google.png" style="height: auto; max-width: 100%; border-radius: 0.5vw;">
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/7.21.0/firebase-app.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/7.21.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.21.0/firebase-analytics.js"></script>
+    <script src="js/firebase-credentials.js"></script>
+    <script src="js/app.js"></script>
+
+</body>
+</html>
